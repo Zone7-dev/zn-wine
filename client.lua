@@ -40,7 +40,7 @@ Citizen.CreateThread(function()
                     if IsControlJustReleased(0, 38) then
                         sonuzum = math.random(1, #uzumlokasyon)
                         TriggerEvent("mythic_progbar:client:progress", {
-                            name = "kayakaz",
+                            name = "üzüm",
                             duration = 5000,
                             label = "üzüm topluyorsun",
                             useWhileDead = false,
@@ -107,7 +107,7 @@ Citizen.CreateThread(function()
                                 araccikartsinmi = true
                                 TriggerEvent("mythic_progbar:client:progress", {
                                     name = "illegaluzum",
-                                    duration = 1000,
+                                    duration = 75000,
                                     label = "üzümler çeviriliyor",
                                     useWhileDead = false,
                                     canCancel = false,
